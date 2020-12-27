@@ -1,4 +1,4 @@
- 
+// re-solve in 27.12.20 
 class Node{
     constructor(val){
         this.val = val
