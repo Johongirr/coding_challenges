@@ -1,28 +1,4 @@
-/**
- *  1. Problem
- *  method takes head node and check if it's the palindrome of itself.
- *  Palindrome means that that string or items are the same both on forwards and on backwards
- * 
- *  2. Example
- *  isPalindrome(1->2->1) true
- *  isPalindrome(2->1) false
- *  isPalindrome(1->2->3->2->1) true
- * 
- *  3. Steps
- *      1. Reverse the linked list
- *          store the head node on variable called current
- *          create variable called prev that is set to null
- *          declare variable called next
- *          set up loop that runs till the tail
- *              In each iteration do followings
- *                  assign next node on  the list to next variable
- *                  set next node to prev
- *                  assign current to prev
- *                  assing next to curr
- *      
- * 
- */
-
+ 
 class Node{
     constructor(val){
         this.val = val
